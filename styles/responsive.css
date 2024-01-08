@@ -101,6 +101,9 @@
     .container{
         max-width: 100%;
      }
+     .mobile__nav{
+        width: 90%;
+     }
      .main-content__title{
         font-size: 3rem;
     }
