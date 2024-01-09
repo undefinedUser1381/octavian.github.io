@@ -87,6 +87,12 @@
         width: 95%;
         gap: 5rem;
     }
+    .gallery{
+        margin-top: 15rem;
+    }
+    .gallery-title__box{
+        width: 90%;
+     }
 }
 
 
@@ -97,6 +103,9 @@
      }
      .mobile__nav{
         width: 90%;
+     }
+     .gallery-img__box{
+        width: 50%;
      }
 }
 
