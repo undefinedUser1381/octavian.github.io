@@ -58,6 +58,7 @@ featuresBtn.addEventListener("mouseenter" , (e) => {
       hoverEffect.style.top = `${eventOffsetY}px`;
 });
 
+// Open and close features
 featuresItem.forEach(elem => {
     elem.addEventListener("click" , () => {
         featuresItem.forEach(elem => {
