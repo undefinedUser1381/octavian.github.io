@@ -638,11 +638,128 @@ h2{
     font-family: var(--primary-font);
     font-weight: 900;
 }
-
-
 /* End gallery */
 
+/* Start team  */
 
+.team{
+    margin-top: 20rem;
+}
+.team__details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail__images{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.left__image{
+   display: flex;
+   flex-direction: column;
+   gap: 2.5rem;
+   width: 100%;
+}
+.top__img{
+    width: 70%;
+    align-self: flex-end;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.bottom__img{
+    width: 100%;
+    align-self: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+.left__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+.right__image{
+    width: 70%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+.right__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details__overlay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    border-radius: 1.5rem;
+}
+.right__image:hover .details__overlay,
+.top__img:hover .details__overlay ,
+.bottom__img:hover .details__overlay{
+     opacity: 0.9;
+     visibility: visible;
+}
+.overlay__text{
+   text-align: center;
+   font-size: 2.5rem;
+   font-family: var(--primary-font);
+}
+.icon__holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a19eee;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+.overlay__icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+} 
+.icon__holder:hover{
+    background-color: #8682fa;
+}
+.overlay__icon{
+   width: 2rem;
+   height: 2rem;
+}
+.detail__content{
+    width: 40%;
+}
+.detail__title{
+}
+.details__text{
+}
+.details__btn{
+}
+
+
+/* Finish team  */
 
 /* swiper styles */
 .swiper-pagination{
@@ -651,7 +768,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: -10rem;
     padding: 1rem;
 }
 .swiper-pagination .swiper-pagination-bullet{
