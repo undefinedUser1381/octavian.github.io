@@ -93,6 +93,13 @@
     .gallery-title__box{
         width: 90%;
      }
+     .team__details{
+        flex-direction: column;
+        gap: 15rem;
+     }
+     .detail__images{
+        width: 90%;
+     }
 }
 
 
@@ -106,6 +113,16 @@
      }
      .gallery-img__box{
         width: 50%;
+     }
+     .detail__images{
+        flex-direction: column;
+        gap: 3rem;
+     }
+     .right__image,.top__img,.bottom__img{
+         width: 90%;
+     }
+     .top__img,.bottom__img{
+        align-self: center;
      }
 }
 
@@ -141,6 +158,9 @@
     .features-contnet__btn{
         margin: 0 auto;
         width: 45%;
+    }
+    .gallery__title{
+        font-size: 3rem;
     }
 }
 
