@@ -153,6 +153,9 @@
      .top__img,.bottom__img{
         align-self: center;
      }
+     .contact__input,.contact__text-area{
+        width: 85%;
+     }
 }
 
 @media (max-width:576px) {
@@ -191,9 +194,7 @@
     .gallery__title{
         font-size: 3rem;
     }
-    .contact__input,.contact__text-area{
-        width: 88%;
-     }
+   
 }
 
 
