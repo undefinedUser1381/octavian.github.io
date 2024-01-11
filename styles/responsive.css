@@ -191,6 +191,9 @@
     .gallery__title{
         font-size: 3rem;
     }
+    .contact__input,.contact__text-area{
+        width: 88%;
+     }
 }
 
 
