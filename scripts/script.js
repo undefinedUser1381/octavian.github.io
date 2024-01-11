@@ -10,8 +10,6 @@ const overlay = $.querySelector(".overlay");
 
 const allBtns = $.querySelectorAll(".btn");
 const effectElem = $.querySelectorAll(".hover");
-// const detailsBtn = document.querySelector(".details__btn");
-// const detailHoverEffectElem = $.querySelector(".details-hover__effect");
 
 const featuresItem = $.querySelectorAll(".features__item")
 
@@ -33,14 +31,12 @@ navMobileIcons[1].addEventListener("click" , () => {
 });
 
 // Close overlay
-
 overlay.addEventListener("click" , () => {
     mobileNav.classList.remove("header-mobile--open");
       overlay.classList.remove("overlay--show");
 });
 
 // Scroll effect
-
 window.addEventListener("scroll" , () => {
      if(document.documentElement.scrollTop > 100){
          header.classList.add("scroll__style");
