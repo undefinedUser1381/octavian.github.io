@@ -215,6 +215,9 @@
      .detail__title{
         font-size: 3rem;
      }
+     .footer__wrapper{
+        padding: 5rem;
+     }
 }
 
 
