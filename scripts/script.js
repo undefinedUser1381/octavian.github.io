@@ -8,8 +8,10 @@ const navMobileIcons = $.querySelectorAll(".nav-mobile__icon");
 const ulSubmenu = $.querySelectorAll(".nav-mobile__submenu");
 const overlay = $.querySelector(".overlay");
 
-const featuresBtn = $.querySelector(".features-contnet__btn");
-const hoverEffect = $.querySelector(".hover__effect");
+const allBtns = $.querySelectorAll(".btn");
+const effectElem = $.querySelectorAll(".hover");
+// const detailsBtn = document.querySelector(".details__btn");
+// const detailHoverEffectElem = $.querySelector(".details-hover__effect");
 
 const featuresItem = $.querySelectorAll(".features__item")
 
@@ -49,13 +51,17 @@ window.addEventListener("scroll" , () => {
      }
 });
 
-// Hover effect
-featuresBtn.addEventListener("mouseenter" , (e) => {
-      let eventOffsetX = e.offsetX ;
-      let eventOffsetY = e.offsetY ;
+// Hover effect for buttons
+allBtns.forEach(elem => {
+    elem.addEventListener("mouseenter" , e => {
+        let eventOffsetX = event.offsetX ;
+        let eventOffsetY = event.offsetY ;
 
-      hoverEffect.style.left = `${eventOffsetX}px`;
-      hoverEffect.style.top = `${eventOffsetY}px`;
+        effectElem.forEach(item => {
+            item.style.left = `${eventOffsetX}px`;
+            item.style.top = `${eventOffsetY}px`;
+        });
+    });
 });
 
 // Open and close features
