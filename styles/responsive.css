@@ -154,7 +154,7 @@
         align-self: center;
      }
      .contact__input,.contact__text-area{
-        width: 90%;
+        width: 88%;
      }
 }
 
@@ -194,7 +194,9 @@
     .gallery__title{
         font-size: 3rem;
     }
-   
+    .contact__input,.contact__text-area{
+        width: 85%;
+     }
 }
 
 
