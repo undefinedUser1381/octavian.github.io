@@ -1012,7 +1012,6 @@ gap: .5rem;
     font-family: var(--primary-font);
     font-weight: 800;
 }
-
 @keyframes shakeRocket {
     0%{
       transform: translateX(0.1rem);
