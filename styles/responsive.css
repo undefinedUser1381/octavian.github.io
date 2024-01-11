@@ -100,6 +100,35 @@
      .detail__images{
         width: 90%;
      }
+     .detail__content{
+        width: 100%;
+     }
+     .detail-content__wrapper{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+     }
+     .contact__wrapper{
+        flex-direction: column-reverse;
+        gap: 6rem;
+     }
+     .contact-item__top{
+        width: 100%;
+     }
+     .contact__left{
+        width: 100%;
+        margin: 0 auto;
+     }
+     .contact__input,.contact__text-area{
+        width: 93%;
+     }
+     .contact__btn{
+        width: 40%;
+        align-self: center;
+     }
+     .contact__right {
+        width: 80%;
+     }
 }
 
 
