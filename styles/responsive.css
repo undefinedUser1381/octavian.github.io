@@ -4,6 +4,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
 
 @media (max-width:1400px) {
@@ -87,6 +88,9 @@
         width: 95%;
         gap: 5rem;
     }
+    .team{
+        margin-top: 15rem;
+     }
     .gallery{
         margin-top: 15rem;
     }
@@ -143,6 +147,7 @@
      .gallery-img__box{
         width: 50%;
      }
+    
      .detail__images{
         flex-direction: column;
         gap: 3rem;
@@ -155,6 +160,16 @@
      }
      .contact__input,.contact__text-area{
         width: 88%;
+     }
+     .footer__wrapper{
+        flex-direction: column;
+        gap: 10rem;
+     }
+     .footer__left,.footer__middle,.footer__right{
+        width: 100%;
+     }
+     .footer-scroll__box{
+        left: 2rem;
      }
 }
 
@@ -196,6 +211,9 @@
     }
     .contact__input,.contact__text-area{
         width: 85%;
+     }
+     .detail__title{
+        font-size: 3rem;
      }
 }
 
