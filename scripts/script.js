@@ -11,7 +11,9 @@ const overlay = $.querySelector(".overlay");
 const allBtns = $.querySelectorAll(".btn");
 const effectElem = $.querySelectorAll(".hover");
 
-const featuresItem = $.querySelectorAll(".features__item")
+const featuresItem = $.querySelectorAll(".features__item");
+
+const footerScrollBox = $.querySelector(".footer-scroll__box");
 
 // Open header for mobile
 navSwitchBtn.addEventListener("click",() => {
@@ -68,6 +70,11 @@ featuresItem.forEach(elem => {
         });
     elem.classList.toggle("features__icon--active");
     });
+});
+
+// Scroll top 
+footerScrollBox.addEventListener("click" , () => {
+      document.documentElement.scrollTop = "0";
 });
 
 
