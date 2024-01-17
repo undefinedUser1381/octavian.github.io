@@ -7,7 +7,6 @@ const mobileNav = $.querySelector(".nav__mobile");
 const navMobileIcons = $.querySelectorAll(".nav-mobile__icon");
 const ulSubmenu = $.querySelectorAll(".nav-mobile__submenu");
 const overlay = $.querySelector(".overlay");
-
 const allBtns = $.querySelectorAll(".btn");
 const effectElem = $.querySelectorAll(".hover");
 
