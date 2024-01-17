@@ -133,6 +133,14 @@
      .contact__right {
         width: 80%;
      }
+     .news__holder{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+     }
+     .news__cart{
+        width: 35%;
+     }
 }
 
 
@@ -142,7 +150,7 @@
         max-width: 720px;
      }
      .mobile__nav{
-        width: 90%;
+        width: 95%;
      }
      .gallery-img__box{
         width: 50%;
@@ -170,6 +178,16 @@
      }
      .footer-scroll__box{
         left: 2rem;
+     }
+     .news__holder{
+      flex-direction: column;
+     }
+     .news__cart{
+        width: 75%;
+     }
+     .news-writter__detials{
+        justify-content: center;
+        gap: 8rem;
      }
 }
 

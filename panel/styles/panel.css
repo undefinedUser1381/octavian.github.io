@@ -1,0 +1,31 @@
+@import url("../../reset.css");
+@import url("../../font.css");
+
+:root{
+   --primary-font:"Samim";
+   --secondary-font:"Yekan";
+   --primary-color:#4A44F2;
+   --secondary-color:#222831;
+   --third-color:#393E46;
+   --forth-color:#1F252D;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+    box-sizing:border-box;
+}
+
+body{
+    box-sizing: inherit;
+    font-size: 1.6rem;
+    height: 100vh;
+    background-color: var(--secondary-color);
+}
+
+h2{
+    color: #ffff;
+    font-family: var(--primary-font);
+}
+
+/* Start panel styles */
