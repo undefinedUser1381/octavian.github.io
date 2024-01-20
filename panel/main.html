@@ -9,9 +9,124 @@
 </head>
 <body>
     
-<p style="color: saddlebrown;">salam</p>
+<main class="panel__box">
+  <div class="panel__holder">
 
+    <!-- Aside pane -->
+    <aside class="panel-aside__box">
+      <div class="title__contents">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="title__icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+        </svg> 
+        <h2 class="aside__title">پنل ادمین</h2>       
+      </div>
+      <ul class="aside__list">
+        <li class="aside__item aside-item--active" data-id="#all-news">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 0 0-1.883 2.542l.857 6a2.25 2.25 0 0 0 2.227 1.932H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-1.883-2.542m-16.5 0V6A2.25 2.25 0 0 1 6 3.75h3.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 0 1.06.44H18A2.25 2.25 0 0 1 20.25 9v.776" />
+          </svg>
+          تمام خبرها    
+        </li>
+        <li class="aside__item" data-id="#add-news">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>     
+          اضافه خبر
+        </li>
+        <li class="aside__item" data-id="#delete-news">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+          </svg>          
+          حذف خبر
+        </li>
+        <li class="aside__item" data-id="#edit-news">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+          </svg>          
+          ویرایش خبر
+        </li>
+      </ul>
+    </aside>
 
-<script src="scripts/panel.js"></script>
+    <!-- Left panel box -->
+    <section class="panel-left__box">
+      <div class="panel__heading">
+        <h2 class="left-panel__title">مدیر عزیز به پنل خوش آمدید ❤️😊 .</h2>
+        <span class="panel__date">
+          1402/07/07
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+          </svg>          
+        </span>
+      </div>
+      <div class="all-panel__sections">
+        <div class="all-sections__wrapper">
+          <!-- All news -->
+          <div class="news__sections news-sections--show" id="all-news">
+           <div class="news-section__wrapper">
+             <!-- Created with js -->
+           </div>
+          </div>
+
+          <!-- Add news -->
+          <div class="news__sections" id="add-news">
+            <h2 class="add-news__title">اضافه کردن خبر یا مقاله</h2>
+            <div class="add-news__box">
+              <div class="add-news__inputs">
+               <div class="inputs__box">
+                <div class="right__input">
+                  <label class="label__input" for="">عنوان را بنویسید</label>
+                  <input type="text" id="title" class="input" placeholder="عنوان">
+                </div>
+                <div class="left__input">
+                  <label class="label__input" for="">نام نویسنده</label>
+                  <input type="text" id="creator" class="input" placeholder="نویسنده">
+                </div>
+               </div>
+               <div class="textarea__holder">
+                 <label for="">متن خبر یا مقاله وارد کنید</label>
+                 <textarea name="" class="textarea" placeholder="متن"></textarea>
+               </div>
+               <div class="select-input__file">
+                <div class="select__box">
+                  <label for="" class="">دسته بندی را انتخاب نمایید</label>
+                  <select name="" id="select">
+                     <option value="-1">دسته بندی مورد نظر را وارد کنید</option>
+                     <option value="IT">آی تی</option>
+                     <option value="front-end">فرانت اند</option>
+                     <option value="backend">بکند</option>
+                     <option value="security">امنیت</option>
+                  </select>
+               </div>
+               <div class="file__holder">
+                  <label class="label__file" for="">کاور مورد نظر را انتخاب نمایید</label>
+                  <input type="file" class="file">
+               </div>
+               </div>
+              </div>
+              <div class="btn__holder">
+                <button class="add__btn">اضافه کردن خبر</button>
+              </div>
+            </div>            
+          </div>
+
+          <!-- Delete news -->
+          <div class="news__sections" id="delete-news">
+            <h2 class="delete-section__title">حذف اخبار و مقالات</h2>
+            <div class="delete__section-holder">
+               <div class="delete__section"></div>
+            </div>
+          </div>
+
+          <!-- Edit news -->
+          <div class="news__sections" id="edit-news">edit news</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script src="scripts/panel.js" type="module"></script>
 </body>
 </html>
